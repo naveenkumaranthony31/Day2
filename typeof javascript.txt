@@ -1,0 +1,50 @@
+type of (1) Number:
+
+  In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). 
+  In other programming languages different numeric types exist; for example, Integers, Floats, Doubles, or Bignums.
+
+
+type of ("1") string:
+
+  In any computer programming language, a string is a sequence of characters used to represent text.
+  In JavaScript, a String is one of the primitive values and the String object is a wrapper around a String primitive.
+
+
+type of (true) Boolean:
+ 
+  In computer science, a Boolean is a logical data type that can have only the values true or false.
+  For example, in JavaScript, Boolean conditionals are often used to decide which sections of code to execute
+  (such as in if statements) or repeat (such as in for loops).
+
+
+type of (null)NULL:
+ 
+  In JavaScript, null is marked as one of the primitive values, because its behavior is seemingly primitive.
+  But in certain cases, null is not as "primitive" as it first seems! Every Object is derived from null value, 
+  and therefore typeof operator returns object for it:
+  typeof null === 'object' // true
+
+
+type of (undefined):
+
+  undefined is a primitive value automatically assigned to variables that have just been declared, or to formal arguments for which there are no actual arguments.
+  Example:
+  var x; //create a variable but assign it no value
+  console.log("x's value is", x) //logs "x's value is undefined" 
+
+type of ([]):
+
+  In JavaScript, an array is an ordered list of values. Each value is called an element specified by an index. 
+  An JavaScript array has the following characteristics: First, an array can hold values of mixed types. 
+  For example, you can have an array that stores elements with the types number, string, and boolean.
+
+type of ({}):
+
+  The typeof operator is not a variable. It is an operator. Operators ( + - * / ) do not have any data type.
+  But, the typeof operator always returns a string (containing the type of the operand).
+
+type of (NaN):
+
+  NaN is the return value from operations which have an undefined numerical result. 
+  Hence why, in JavaScript, aside from being part of the global object, it is also part of the Number object: Number.NaN 
+  It is still a numeric data type , but it is undefined as a real number 
